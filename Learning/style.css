@@ -1,22 +1,47 @@
-.image-item {
-    width: 450px;
-    height: 300px;
+#navbar {
+    background-color: lightcoral;
+    padding: 8px;
 }
 
-.caption {
-    font-size: 24px;
-    margin-top: 8px;
+#master-header {
+    background-color: lightblue;
+    padding: 24px;
 }
 
-table {
-    margin: auto;
+main {
+    background-color: lightgray;
+    padding: 24px;
+}
+
+section {
+    background-color: lightgreen;
+    padding: 16px;
+}
+
+article {
+    background-color: lightseagreen;
+    padding: 16px;
+    margin: 16px auto;
+}
+
+footer {
+    background-color: lightskyblue;
+    padding: 24px;
+}table{
+    margin: 24px;
+
+    background-color: lightblue;
+    
+    width: 700px;
     text-align: center;
 }
 
-/*
-table {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+table, td, th {
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-size: 20px;
 }
-*/
+
+td, th {
+    padding: 24px;
+}
