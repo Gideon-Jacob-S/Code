@@ -1,0 +1,22 @@
+.image-item {
+    width: 450px;
+    height: 300px;
+}
+
+.caption {
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+/*
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+*/
