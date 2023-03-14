@@ -1,0 +1,16 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 900px;
+    margin: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 18px 14px;
+    font-size: 20px;
+}
+
+.heading {
+    background-color: lightblue;
+}
