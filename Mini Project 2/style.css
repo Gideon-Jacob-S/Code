@@ -1,16 +1,17 @@
 table {
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: start;
     width: 900px;
     margin: auto;
 }
 
-td {
+td, th {
     border: 1px solid black;
     padding: 18px 14px;
     font-size: 20px;
 }
 
-.heading {
+th {
     background-color: lightblue;
 }
