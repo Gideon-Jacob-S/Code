@@ -20,10 +20,6 @@ section {
     background-color: aliceblue;
 }
 
-h2 {
-    display: inline-flex;
-}
-
 section {
     text-align: center;
 }
