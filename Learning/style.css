@@ -15,8 +15,8 @@ h1 {
 }
 
 section {
-    margin: 5px 0px;
-    padding: 5px;
+    margin: 10px 0px;
+    padding: 25px 5px;
     background-color: aliceblue;
 }
 
@@ -38,16 +38,26 @@ table {
 }
 
 #gender {
-    padding-bottom: 50px;
+    padding-bottom: 55px;
 }
 
 th {
+    text-align: end;
+}
+
+td, th {
+    padding: 5px;
     font-weight: 100;
     width: 250px;
 }
 
-td {
-    width: 300px;
+.sq {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.input-item {
+    width: 90%;
 }
 
 
