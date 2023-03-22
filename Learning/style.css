@@ -1,6 +1,7 @@
 body {
     margin: 5px;
     font-size: 22px;
+    text-align: center;
 }
 
 h1 {
@@ -9,8 +10,7 @@ h1 {
 
     color: rgb(53, 0, 16);
     background-color: rgb(255, 240, 240);
-
-    text-align: center;
+    
     font-size: 50px;
 }
 
@@ -18,21 +18,4 @@ section {
     margin: 5px 0px;
     padding: 5px;
     background-color: aliceblue;
-}
-
-section {
-    text-align: center;
-}
-
-button {
-    padding: 15px;
-    border: 0px;
-    border-radius: 12px;
-
-    background-color: orange;
-    color: white;
-    
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: none;
 }
