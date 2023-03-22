@@ -4,20 +4,68 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./style.css">
-        <title>HTML Forms</title>
+        <title>Sign-up Page</title>
     </head>
     <body>
         <header>
-            <h1>Login Page</h1>
+            <h1>Sign-up Page</h1>
         </header>
         <main>
             <section>
                 <form>
-                    <p>
-                        username: <input type="text" name="username"> <br>
-                        password: <input type="password" name="pass"> <br>
-                        <input type="submit" value="Login">
-                    </p>
+                    <table class="center">
+                        <tr>
+                            <th>Full Name:</th>
+                            <td><input type="text" name="username"></td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <th>Password:</th>
+                            <td><input type="password" name="password"></td>
+                        </tr>
+                        <tr>
+                            <th>Confirm Password:</th>
+                            <td><input type="password" name="confirm-password"></td>
+                        </tr>
+                    </table> <br>
+                    <input class="button" type="submit" value="Login">
+                </form>
+            </section>
+            <section>
+                <form>
+                    <table class="center">
+                        <tr>
+                            <th id="gender">Gender:</th>
+                            <td>
+                                <input type="radio" name="male" value="male"> Male <br>
+                                <input type="radio" name="female" value="female"> Female <br>
+                                <input type="radio" name="other" value="other"> Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Security Question:</th>
+                            <td>
+                                <select name="security-question">
+                                    <option value="first-pet-name">What was your first per name?</option>
+                                    <option value="first-job">What was your first job?</option>
+                                    <option value="nick-name">What was your first nick name?</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <textarea name="answer" cols="30" rows="6"></textarea>
+                            </td>
+                        </tr>
+                    </table> <br>
+                    <p id="terms">
+                        <input type="checkbox" name="terms-conditions" value="accept"> I agree to terms and conditions
+                    </p> <br>
+                    <input class="button" type="submit" value="Register">
                 </form>
             </section>
         </main>
