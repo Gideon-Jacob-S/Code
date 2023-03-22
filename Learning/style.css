@@ -23,3 +23,16 @@ section {
 section {
     text-align: center;
 }
+
+button {
+    padding: 15px;
+    border: 0px;
+    border-radius: 12px;
+
+    background-color: orange;
+    color: white;
+    
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
