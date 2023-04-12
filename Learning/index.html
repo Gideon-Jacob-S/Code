@@ -4,102 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./style.css">
-        <title>Sign-up Page</title>
+        <title>HTML5 - Video</title>
     </head>
     <body>
-        <header>
-            <h1>Sign-up Page</h1>
-        </header>
-        <main>
-            <section>
-                <form>
-                    <table class="center">
-                        <tr>
-                            <th>Full Name:</th>
-                            <td><input class="input-item" 
-                                       type="text" 
-                                       name="username" 
-                                       placeholder="Full Name"
-                                       autofocus
-                                       required></td>
-                        </tr>
-                        <tr>
-                            <th>Email:</th>
-                            <td><input class="input-item" 
-                                       type="email" 
-                                       name="email"
-                                       placeholder="Email"
-                                       required></td>
-                        </tr>
-                        <tr>
-                            <th>Password:</th>
-                            <td><input class="input-item" 
-                                       type="password" 
-                                       name="password"
-                                       placeholder="Password"
-                                       required
-                                       maxlength="16"></td>
-                        </tr>
-                        <tr>
-                            <th>Confirm Password:</th>
-                            <td><input class="input-item" 
-                                       type="password" 
-                                       name="confirm-password"
-                                       placeholder="Confirm Password"
-                                       required
-                                       maxlength="16"></td>
-                        </tr>
-                    </table> <br>
-                    <input class="button" type="submit" value="Login">
-                </form>
-            </section>
-            <section>
-                <form>
-                    <table class="center">
-                        <tr>
-                            <th id="gender">Gender:</th>
-                            <td>
-                                <input type="radio" name="male" value="male"> Male <br>
-                                <input type="radio" name="female" value="female"> Female <br>
-                                <input type="radio" name="other" value="other"> Other
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Age:</th>
-                            <td>
-                                <input type="number"
-                                       name="age"
-                                       min="13"
-                                       max="120">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="sq">Security Question:</th>
-                            <td class="sq">
-                                <select class="input-item" name="security-question">
-                                    <option value="first-pet-name">What was your first per name?</option>
-                                    <option value="first-job">What was your first job?</option>
-                                    <option value="nick-name">What was your first nick name?</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="sq"></td>
-                            <td class="sq">
-                                <textarea class="input-item" 
-                                          name="answer" 
-                                          cols="30" 
-                                          rows="6"
-                                          placeholder="Answer"></textarea>
-                            </td>
-                        </tr>
-                    </table> <br>
-                    <p id="terms">
-                        <input type="checkbox" name="terms-conditions" value="accept" required> I agree to terms and conditions
-                    </p> <br>
-                    <input class="button" type="submit" value="Register">
-                </form>
-            </section>
-        </main>
+        <video controls autoplay loop width="1000">
+            <source src="./src/video.webm" type="video/webm">
+            <source src="./src/video.mp4" type="video/mp4">
+        </video>
     </body>
 </html>
