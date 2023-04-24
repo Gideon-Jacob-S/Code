@@ -3,23 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <title>HTML5 - Embed Youtube Videos</title>
+        <title>HTML5 - Intro to SVG</title>
+        <style>
+            img, svg {
+                background-color: lightcoral;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
-        <iframe src="https://zoro.to/home" 
-                width =  "1080"
-                height = "480"></iframe>
-        <br>
-        <iframe src="https://youtu.be/SQNlI6JXh-Y"></iframe>
-        <br>
-        <iframe width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/SQNlI6JXh-Y" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen></iframe>
+        <img src="./line.svg" alt="Line">
 
+        <svg width='600' height='500'>
+            <line x1="0" y1="0"
+                  x2="100" y2="100"
+                  stroke="green"
+                  stroke-width="3px"/>
+        </svg>
     </body>
 </html>
