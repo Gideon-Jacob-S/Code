@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(0, 0, 90);
+    padding: 15px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header {
+    padding: 15px;
+}
+
+.link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.cover-image {
+    width: 100%;
+    height: 500px;
+}
+
+.summary-cover-image {
+    width: 100%;
+    height: 350px;
+}
+
+.gallery {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.gallery-image {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.gallery-link {
+    color: black;
+    text-decoration: none;
+}
+
+.summary-content {
+    padding: 0px 120px;
+    text-align: start;
+    font-size: 22px;
+}
+
+.summary-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+#form-element {
+    display: inline-block;
+    
+    width: 400px;
+    height: 300px;
+
+    padding: 25px;
+    margin-bottom: 80px;
+    border: 2px #ccc solid;
+
+    background-color: whitesmoke;
+}
+
+.input-field {
+    width: 90%;
+
+    margin: 20px 0px;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px #ccc solid;
+
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+#submit-button {
+    background-color: darkblue;
+    color: whitesmoke;
+    
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+footer {
+    padding: 80px;
+    background-color: black;
+    color: rgba(245, 245, 245, 0.648);
+}
+
+.link-footer {
+    color: rgba(245, 245, 245, 0.648);
+    text-decoration: none;
+}
