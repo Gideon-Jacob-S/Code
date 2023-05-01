@@ -1,8 +1,25 @@
-body {
-    font-family: 'Sigmar', cursive;
-    text-align: center;
+#first-paragraph {
+    border: 4px dashed orange;
 }
-p {
-    padding: 0px 160px;
-    text-align: justify;
+
+#second-paragraph {
+    border-style: double;
+    border-width: 4px;
+    border-color: red;
+}
+
+#third-paragraph {
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-right-style: double;
+    border-width: 4px;
+    border-color: blue;
+}
+
+#fourth-paragraph {
+    border-top: 4px solid rebeccapurple;
+    border-bottom: 5px dashed goldenrod;
+    border-right: 3px dotted black;
+    border-left: 6px double black;
 }
