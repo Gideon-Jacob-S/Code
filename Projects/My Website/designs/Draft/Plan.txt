@@ -1,0 +1,20 @@
+Landing Page
+- Gideon Jacob
+- Traveller & Freelancer
+- Explore my Works (Button)
+- Know more about Me (Button)
+
+Works Page (Freelancing)
+- Header (Home Button)
+- Navigating Sections (types of works)
+- list of my works
+- Continued by Services section
+- Continued by Contact Me Section
+
+About Me Page (Travelling)
+- Header (Home Button)
+- Social Media like bio (cover image, profile picture, biography) [Facebook or linkedin]
+- Continued by Travel Dairy (Gallery View)
+- Continued by Contact Me to join my next Trip
+
+

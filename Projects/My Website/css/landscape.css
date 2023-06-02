@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main Page Styling */
+
+#main-page {
+    background-image: url(../media/bg.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position:top left;
+}
+
+#Heading {
+    /* color: black; */
+    /* background-color: brown; */
+    
+
+    position: absolute;
+    right: 10vw;
+    top: 20vh;
+}
+
+h1 {
+    color: white;
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+#action-about, #action-work {
+    background-color: rgba(141, 141, 141, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+
+    padding: 6px 12px;
+    border: 3px solid rgb(204, 204, 204, 0.2);
+    border-radius: 8px;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#action-work {
+    position: fixed;
+    top: 30%;
+    right: 10%;
+}
+
+#action-about {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+}
+
+/* #action-about:hover, #action-work:hover {
+    background-color: rgba(141, 141, 141, 0.5);
+    border: 5px solid rgb(204, 204, 204, 0.4);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+    box-shadow: 0px 4px 15px rgb(94, 94, 94);
+} */
